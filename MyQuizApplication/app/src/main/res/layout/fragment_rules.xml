@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rulesFragment"
+    tools:context=".fragments.RulesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rulesFragmentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/rulesFragmentTitle"
+                android:textColor="@color/purple_700"
+                android:textSize="38sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules1"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/rules1"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules2"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/rules2"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules3"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/rules3"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules4"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/rules4"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules5"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/rules5"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rules6"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/rules6"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/thankYou"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center_horizontal"
+                android:text="@string/thankYou"
+                android:textColor="@color/purple_700"
+                android:textSize="20dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/backButton"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/backButton"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string name="hello_blank_fragment">This is a fragment</string>
+    <string name="applicationTitle">QuizApplication</string>
+    <string name="startQuiz">Start quiz</string>
+    <string name="writeUserName">Please write your Username</string>
+    <string name="writePassword">Your Password</string>
+    <string name="signIn">Sign in page</string>
+    <string name="about">About</string>
+    <string name="score">Score: </string>
+    <string name="questionText">There will be the question</string>
+    <string name="answer1">This will be the first option</string>
+    <string name="answer2">This will be the second option</string>
+    <string name="answer3">This will be the third option</string>
+    <string name="answer4">This will be the fourth option</string>
+    <string name="checkBoxSubButton">Submit answer</string>
+    <string name="inputAnswerButton">Submit answer</string>
+    <string name="inputAnswer">Write your answer here</string>
+</resources>

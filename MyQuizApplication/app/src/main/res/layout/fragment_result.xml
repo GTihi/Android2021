@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/resultFragment"
+    tools:context=".fragments.ResultFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/resultPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/results"
+                android:textColor="@color/purple_700"
+                android:textSize="38sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numberOfCorrectAnswers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="0.2"
+                    android:text="@string/numberCorrect"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/counterOfCorrectAnswers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/counterCorrect"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/numberOfWrongAnswers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="0.2"
+                    android:text="@string/numberWrong"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/counterOfWrongAnswers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/counterWrong"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/finalScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/finalScore"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/finalPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center_horizontal"
+                android:text="0/100"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/backToMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/backButton" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyQuizApplication</string>
+    <string name="applicationTitle">QuizApplication 2020</string>
+    <string name="userName">Please write your name</string>
+    <string name="password">Please write your password</string>
+    <string name="startQuizButton">Start Quiz</string>
+    <string name="rulesButton">Rules</string>
+    <string name="showPassword">Show password</string>
+
+
+    <string name="rulesFragmentTitle">Rules</string>
+    <string name="rules1">1. There are 10 questions, for each question you can earn 10 points</string>
+    <string name="rules2">2. There are different kind of questions, with different kind of answers</string>
+    <string name="rules3">3. Before you go to a next page, you will see an information if your answer was correct or not</string>
+    <string name="rules4">4. Your final score will be shown at the end of the quiz</string>
+    <string name="rules5">5. If you choose to use hint, 5 points will be taken away from your score</string>
+    <string name="rules6">6. If you have not selected or written any answer and you have sent it, this will be accepted as a wrong answer</string>
+    <string name="thankYou">Thank you for playing with us</string>
+    <string name="backButton">Back to main menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="score">Score:</string>
+    <string name="questionText">There will be the question</string>
+    <string name="answer1">This will be the first option</string>
+    <string name="answer2">This will be the second option</string>
+    <string name="answer3">This will be the third option</string>
+    <string name="answer4">This will be the fourth option</string>
+    <string name="submitAnswerButton">Submit answer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="question"><u>0.question</u></string>
+    <string name="inputAnswer">Your answer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="results">Good job</string>
+    <string name="numberCorrect">Number of correct answers</string>
+    <string name="numberWrong">Number of wrong answers</string>
+    <string name="counterCorrect">0</string>
+    <string name="counterWrong">0</string>
+    <string name="finalScore">Final score</string>
+    <string name="showHint">Show a hint</string>
+    <string name="hint">This will be the hint</string>
+</resources>

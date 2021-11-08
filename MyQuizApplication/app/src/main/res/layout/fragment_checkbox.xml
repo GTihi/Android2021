@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/checkboxFragment"
+    tools:context=".fragments.CheckboxFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/scoreBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="2.5"
+                    android:text="@string/score"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/points"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:text="0/100"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/numberOfQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:text="@string/question"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/questionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="start"
+                android:text="@string/questionText"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:id="@+id/checkboxLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer1"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer2"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer3"
+                    android:textSize="15sp"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/answer4"
+                    android:textSize="15sp"/>
+                <CheckBox
+                    android:id="@+id/showHintCheckbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/showHint"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:id="@+id/theHintCheckbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/black"
+                    android:text="@string/hint"
+                    android:textSize="13sp"
+                    android:visibility="gone"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/checkboxSubmitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="25dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/submitAnswerButton"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
